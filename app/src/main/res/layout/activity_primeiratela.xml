@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundoTela"
+    android:touchscreenBlocksFocus="false">
+
+
+    <Button
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:id="@+id/button"
+        android:layout_marginTop="@dimen/_23sdp"
+        android:layout_marginStart="@dimen/_27sdp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/botao1"
+
+        android:layout_marginBottom="20dp"
+        />
+    <!-- usar efeito de sombra de componente-->
+
+
+    <Button
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:id="@+id/button2"
+        android:background="@drawable/botao2"
+        style="@style/button"
+        android:layout_below="@+id/button11"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <Button
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:background="@drawable/botao2"
+        style="@style/button"
+
+        />
+
+    <Button
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:background="@drawable/botao4"
+        style="@style/button"
+
+        />
+
+    <Button
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:background="@drawable/botao5"
+        style="@style/button"
+
+        />
+
+    <Button
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:id="@+id/button6"
+        android:layout_alignTop="@+id/button"
+        android:layout_toEndOf="@+id/button"
+        android:layout_marginStart="@dimen/_32sdp"
+        style="@style/button"
+        android:background="@drawable/botao6"
+
+        />
+
+    <Button
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:id="@+id/button7"
+        android:background="@drawable/botao7"
+        style="@style/button"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignStart="@+id/button6" />
+
+    <Button
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:id="@+id/button8"
+        android:layout_above="@+id/button4"
+        android:layout_alignStart="@+id/button7"
+        android:background="@drawable/botao8"
+        style="@style/button"
+        />
+
+    <Button
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:id="@+id/button9"
+        android:layout_below="@+id/button8"
+        android:layout_alignStart="@+id/button8"
+        android:background="@drawable/botao9"
+        style="@style/button"
+        />
+
+    <Button
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:id="@+id/button10"
+        android:layout_alignTop="@+id/button5"
+        android:layout_alignStart="@+id/button9"
+        android:background="@drawable/botao10"
+        style="@style/button"
+
+        />
+
+    <ImageButton
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:id="@+id/button11"
+        android:background="@drawable/botao11"
+        style="@style/button2"
+        android:layout_alignTop="@+id/button6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:layout_marginEnd="30dp"
+
+        android:scaleType="fitCenter"
+
+        />
+
+
+
+    <ImageButton
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:id="@+id/lixeira"
+        android:src="@mipmap/lixeira"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        style="@style/button2"
+        android:layout_alignTop="@+id/button10"
+        android:layout_alignRight="@+id/button11"
+        android:layout_alignEnd="@+id/button11" />
+
+    <Button
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_50sdp"
+
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text=" INICIAR "
+        android:id="@+id/button12"
+        android:textSize="@dimen/_22sdp"
+        android:textColor="@color/branco"
+
+
+        android:stateListAnimator="@anim/rotate"
+        android:background="@drawable/iniciar_button"
+
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+
+        android:id="@+id/Instrucoes"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_60sdp"
+        style="@style/button"
+
+        android:text=" INSTRUÇÕES "
+        android:stateListAnimator="@anim/rotate"
+        android:background="@drawable/instrucao_button"
+        android:textSize="@dimen/_23sdp"
+        android:textColor="@color/branco"
+        android:layout_alignBottom="@+id/button10"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>

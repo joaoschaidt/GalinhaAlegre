@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/mainlayout"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/secondlayout"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        tools:context="com.example.avell_b155.drawtest.MainActivity"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/progressBar"
+        android:layout_toEndOf="@+id/progressBar">
+
+
+
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="@dimen/_82sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:text=" 000 "
+        android:id="@+id/texto"
+        android:textColor="@color/branco"
+        android:background="@drawable/rounded_textview"
+        android:textAlignment="center"
+        android:textSize="@dimen/_25sdp"
+        android:textStyle="bold"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="@dimen/_115sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:background="@drawable/rounded_textview"
+        android:text="00:00:00"
+        android:id="@+id/timer"
+        android:textColor="@color/branco"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="@dimen/_35sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_28sdp"
+        android:textAlignment="center"
+        android:textSize="@dimen/_23sdp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        />
+
+    <ProgressBar
+
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="fill_parent"
+        android:id="@+id/progressBar"
+        android:max="50"
+        android:indeterminate="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="@style/Widget.ProgressBar.Vertical"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Black.NoTitleBar.Fullscreen">
+        <!-- Customize your theme here. -->
+
+        <item name="android:colorBackground">@color/azulDeFundo</item>
+        <item name="android:windowBackground">@color/azulDeFundo</item>
+    </style>
+
+    <style name="button" >
+        <item name="android:layout_marginBottom">@dimen/layout_padding</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="button2" >
+        <item name="android:layout_marginBottom">@dimen/layout_padding</item>
+    </style>
+
+
+
+    <style name="Widget">
+    </style>
+    <style name="Widget.ProgressBar">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+    <style name="Widget.ProgressBar.Vertical">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/vertical_progress_bar</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+
+    </style>
+
+    <style name="Theme.Transparent" parent="android:Theme">
+            <item name="android:windowIsTranslucent">true</item>
+            <item name="android:windowBackground">@color/transparent2</item><!--  se fizer @android:color/ pega direto do sistema-->
+            <item name="android:windowContentOverlay">@null</item>
+            <item name="android:windowNoTitle">true</item>
+            <item name="android:windowIsFloating">true</item>
+            <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Theme.Transparent2" parent="android:Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@color/transparent2</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+    </style>
+</resources>

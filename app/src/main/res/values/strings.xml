@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Galinha Alegre</string>
+    <string name="app_instruction">&#160;&#160;&#160;&#160;&#160;&#160; Esta é a sua primeira vez jogando?&#160;  Para jogar toque na tela e a galinha irá por um ovo,
+    você tem 25 segundos, quanto mais vezes você clicar, mais pontos terá. A cada vez que completar a barra ao lado esquerdo,
+     o tempo irá recomeçar e você terá mais 25 segundos.
+        </string>
+
+    <string name="banner_home_footer">ca-app-pub-0664570763252260/3326522424 </string>
+
+</resources>

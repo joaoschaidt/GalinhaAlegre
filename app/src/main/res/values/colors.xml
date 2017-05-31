@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="branco">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent2">#8c000000</color>
+    <color name="azulDeFundo">#2ea5f1</color>
+    <color name="fundoTela">#8d98ee</color>
+
+
+    <color name="button2">#dae9b7</color>
+    <color name="button6">#dceaa5</color>
+    <color name="button7">#e6c309</color>
+    <color name="button3">#dbe5ab</color>
+    <color name="button8">#45b773</color>
+    <color name="button4">#e5e6a3</color>
+    <color name="button9">#c79c76</color>
+    <color name="button5">#bdcad7</color>
+    <color name="button10">#515f4d</color>
+
+
+</resources>
